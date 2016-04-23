@@ -1,0 +1,50 @@
+body {padding: 5px; margin-left: 10px; margin-right: 10px; padding-left: 100px; padding-right: 100px; padding-bottom: inherent; padding-top: inherent; }
+
+li {display: inline; padding: 15px; background-color: black; color: white; border-radius: 4px;}
+li:active {text-decoration: none;}
+li:hover {text-decoration: none; font-size: 24px; color:white; background-color: limegreen;}
+
+a:visited {text-decoration: none; color:white;}
+a:hover {text-decoration: none; color:white;}
+a:focus {text-decoration: none; color:white;}
+a:active {text-decoration: none; color:white;}
+
+
+body {font-family: 'Istok Web', sans-serif;}
+
+h3 {color:blue;}
+
+div.img {border: 5px solid; width: 310px; display: inline-block; margin-left: auto; margin-right: auto;}
+
+div.image {border: 10px solid; width:380px; dislay: inline; color:orangered;}  /*this class represents the formatting around the image on the conductor's car page.*/	
+
+div.img:hover {}
+
+
+.center-div{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+div.img img {border: 5px solid; border-color: limegreen; height: 300px; width: 300px;} /*this class represents the formatting around the images on the index page.*/
+
+
+div.desc {padding: 15px; text-align: center; color: white; background-color: black; font-size: 24px;} /*this class represents the descending black box below the images
+index page.*/
+
+
+.img-circle {border-radius: 50%;} /*this class was used to round out images on the index page.*/
+ 
+.image-circle {border-radius:40%}
+
+a {color: white;}
+
+#name {color: orangered; font-weight: bolder;}
+#name2 {color: green; font-weight: bolder; font-style: italic;}
+#name3 {color: blue; font-weight: bolder; font-style: italic;}
+#name4 {color: red; font-weight: bolder; font-style: italic;}
+
+body {background: linear-gradient(yellow, white, white, white, white, white, yellow);} /*background color for gradient*/
